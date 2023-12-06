@@ -14,6 +14,8 @@
 		5E5282A52B1508990053E72C /* BookCaseProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E5282A32B1508990053E72C /* BookCaseProject.xcdatamodeld */; };
 		5E5282A72B15089A0053E72C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E5282A62B15089A0053E72C /* Assets.xcassets */; };
 		5E5282AA2B15089A0053E72C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5282A82B15089A0053E72C /* LaunchScreen.storyboard */; };
+		5E5282B22B150B9E0053E72C /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5282B12B150B9E0053E72C /* DetailsVC.swift */; };
+		5E9F6A7F2B15286B00EFECE4 /* select-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E9F6A7E2B15286B00EFECE4 /* select-1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		5E5282A62B15089A0053E72C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E5282A92B15089A0053E72C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E5282AB2B15089A0053E72C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E5282B12B150B9E0053E72C /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		5E9F6A7E2B15286B00EFECE4 /* select-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "select-1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +62,11 @@
 		5E5282992B1508990053E72C /* BookCaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				5E9F6A7E2B15286B00EFECE4 /* select-1.png */,
 				5E52829A2B1508990053E72C /* AppDelegate.swift */,
 				5E52829C2B1508990053E72C /* SceneDelegate.swift */,
 				5E52829E2B1508990053E72C /* ViewController.swift */,
+				5E5282B12B150B9E0053E72C /* DetailsVC.swift */,
 				5E5282A02B1508990053E72C /* Main.storyboard */,
 				5E5282A62B15089A0053E72C /* Assets.xcassets */,
 				5E5282A82B15089A0053E72C /* LaunchScreen.storyboard */,
@@ -129,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E5282AA2B15089A0053E72C /* LaunchScreen.storyboard in Resources */,
+				5E9F6A7F2B15286B00EFECE4 /* select-1.png in Resources */,
 				5E5282A72B15089A0053E72C /* Assets.xcassets in Resources */,
 				5E5282A22B1508990053E72C /* Main.storyboard in Resources */,
 			);
@@ -145,6 +152,7 @@
 				5E52829B2B1508990053E72C /* AppDelegate.swift in Sources */,
 				5E5282A52B1508990053E72C /* BookCaseProject.xcdatamodeld in Sources */,
 				5E52829D2B1508990053E72C /* SceneDelegate.swift in Sources */,
+				5E5282B22B150B9E0053E72C /* DetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
